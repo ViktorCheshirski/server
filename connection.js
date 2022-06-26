@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
     password : 'qwertyuiop',
     database : 'ptototype_bd',
     ssl  : {
-      ca : fs.readFileSync('C:/Users/Acer/.mysql/root.crt'),
+      ca : fs.readFileSync('./config/root.crt'),
     }
 })
 module.exports = {connection};
