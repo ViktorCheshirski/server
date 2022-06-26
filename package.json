@@ -1,0 +1,30 @@
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "description": "diplom",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Cheshir",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "config": "^3.3.7",
+    "easy-yandex-s3": "^1.1.6",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.2",
+    "jsmediatags": "^3.9.7",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "mysql3": "^0.6.0",
+    "nodemailer": "^6.7.5",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
